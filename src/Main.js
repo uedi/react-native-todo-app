@@ -1,11 +1,9 @@
 import React from 'react'
-import { View, Text } from 'react-native'
+import Drawer from './navigation/Drawer'
 
 const Main = () => {
     return (
-        <View>
-            <Text>hello</Text>
-        </View>
+        <Drawer />
     )
 }
 
